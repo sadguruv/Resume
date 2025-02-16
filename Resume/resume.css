@@ -1,0 +1,264 @@
+.back{
+  position: relative;
+  overflow: scroll;
+  background-size: cover;
+  background-image: url(images/bhome.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.bg{
+  text-shadow: black;
+  font-style: oblique;
+  display: flex;
+  flex-flow: column wrap;
+  background: transparent;
+  color:whitesmoke;
+}
+.btn1{
+  overflow:hidden;
+  border:gray 3px;
+  justify-self: auto;
+  flex-flow: wrap;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(3, 18, 3);
+}
+.btn2{
+  flex-flow: wrap;
+  border:gray 3px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(3, 18, 3);
+  border-radius: 50%;
+}
+.btn3{
+  flex-flow: wrap;
+  border:gray 3px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(3, 18, 3);
+  border-radius: 50%;
+}
+.btn4{
+  flex-flow: wrap;
+  border:gray 3px;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(3, 18, 3);
+  border-radius: 50%;
+}
+.btns a {
+  display: block;
+  margin-bottom: 10px;
+}
+.btns
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+  box-sizing: border-box;
+  flex-flow: column wrap;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  padding-left: 90%;
+  padding-top: 20%;
+}
+.btn1:hover{
+  transform:scale(1.36);
+  background-color:aliceblue;
+}
+.btn2:hover{
+  transform:scale(1.36);
+  background-color: aliceblue;;
+}
+.btn3:hover{
+  transform:scale(1.36);
+  background-color: aliceblue;;
+}
+.btn4:hover{
+  transform:scale(1.36);
+  background-color: aliceblue;;
+}
+p{
+  flex-flow: row wrap;
+  justify-content: space-around;
+  justify-items: right;
+  flex-flow: row;
+  flex-grow: unset;
+  align-content:flex-start;
+  font-size: 16px;
+  overflow: hidden;
+  position: relative;
+  left:5%;
+  font-style: oblique;
+}
+.p1b{
+  display: flex;
+  overflow: hidden;
+  padding: 3px;
+  border-radius:0.5em;
+  border: 3px solid darkorange;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 150px;
+  background: black;
+  color: #bfff26;
+}
+.p2b{
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.5em;
+  border: 3px solid darkorange;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 150px;
+  background: black;
+  color: #bfff26;
+}
+.p3b{
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.5em;
+  border: 3px solid darkorange;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 150px;
+  background: black;
+  color: #bfff26;
+}
+.p1b:hover{
+  transition-duration:2s;
+  transition-timing-function: ease-in-out;
+  transform: scale(2.0);
+  transform: scaleX(1.2);
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  color:whitesmoke;
+  background:darkmagenta;
+}
+
+.p2b:hover{
+  display: flex;
+  transition-duration:2s;
+  transition-timing-function: ease-in-out;
+  transform: scale(2.0);
+  transform: scaleX(1.2);
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  color:whitesmoke;
+  background:darkmagenta;
+}
+
+.p3b:hover{
+  overflow: hidden;
+  transition-duration:2s;
+  transition-timing-function: ease-in-out;
+  transform: scaley(2.0);
+  transform: scaleX(1.2);
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  color:whitesmoke;
+  background:darkmagenta;
+}
+.contact{
+  overflow: scroll;
+  flex-flow: wrap;
+  display: flex;
+  background-image: url(images/contact.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.cna{
+  flex-flow: column wrap;
+}
+.pho{
+  border-radius: 0.5em;
+  border:deepskyblue 3px;
+  display: flex;
+  width: 200px;
+  height: 150px;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: blanchedalmond;
+  border-style:solid ridge;
+}
+.mail{
+  border:deepskyblue 3px;
+  border-radius: 0.5em;
+  display: flex;
+  width: 200px;
+  height: 150px;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color:blueviolet;
+  border-style:solid ridge;
+}
+.pin{
+  border:deepskyblue 3px;
+  border-radius: 0.5em;
+  padding: 3px;
+  display: flex;
+  width: 300px;
+  height: 150px;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color:darkgoldenrod;
+  border-style:solid ridge;
+}
+
+* {box-sizing: border-box}
+.container {
+  width: 100%;
+}
+.skill{
+  overflow: scroll;
+  flex-flow: wrap;
+  display: flex;
+  background-image: url(images/idea.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.skills{
+  overflow: hidden;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:blue;
+}
+.html {width: 90%; background-color: darkmagenta;}
+.css {width: 80%; background-color: green;}
+.js {width: 65%; background-color: midnightblue;}
+.php {width: 60%; background-color: firebrick;}
+
+.image{
+  display: block;
+  width:250px;
+  border-radius: 6rem;
+  height: 250px ;
+  text-align: center;
+}
+.gallery{
+  overflow: scroll;
+  flex-flow: wrap;
+  display: flex;
+  background-image: url(images/geans.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
